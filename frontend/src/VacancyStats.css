@@ -1,0 +1,18 @@
+.vacancy-stats {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vacancy-stats h2 {
+    margin-bottom: 10px;
+}
+
+.vacancy-stats p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}

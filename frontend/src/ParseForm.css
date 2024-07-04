@@ -1,0 +1,56 @@
+.parse-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.parse-form input,
+.parse-form select,
+.parse-form .css-yk16xz-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    color: #555; /* Общий цвет текста */
+}
+
+.parse-form input::placeholder,
+.parse-form select::placeholder {
+    color: #aaa; /* Цвет placeholder */
+}
+
+.parse-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.parse-form button:hover {
+    background-color: #0056b3;
+}
+
+.parse-form select {
+    color: #aaa; /* Цвет текста для пустого выбора */
+}
+
+.parse-form select:not(:focus):invalid {
+    color: #aaa; /* Цвет текста для некорректного состояния */
+}
+
+.parse-form select:focus,
+.parse-form select:not(:invalid) {
+    color: #555; /* Цвет текста для заполненного поля */
+}
